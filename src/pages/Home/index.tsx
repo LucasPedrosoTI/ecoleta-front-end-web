@@ -14,7 +14,12 @@ const Home = () => {
         <main>
           <h1>Seu marketplace de coleta de resíduos.</h1>
           <p>
-            Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente.
+            Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente.{" "}
+            <br />
+            <em>
+              Essa página é apena o front-end da aplicação original. Portanto,
+              não salva no banco de dados e nem lista os itens.
+            </em>
           </p>
 
           <Link to="/create-point">
